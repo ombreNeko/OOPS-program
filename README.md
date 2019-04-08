@@ -1,4 +1,4 @@
-# OOPS-program
+Buy/Sell Office Building
 This is a simple c++ program incorporating the concepts of Object Oriented Programing (OOPS).
 It depicts inheritance, abstraction and encapsulation.
 
