@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//Base class
  class Building
  {
  	 private:
@@ -78,7 +79,7 @@ using namespace std;
 };
 
 
-
+//Derived Class
 class Office: public Building{
 
     private:
@@ -163,6 +164,7 @@ int Office:: sTotalOffices=0;
 
 vector <Office> forSale;
 
+//Generates initial data for the list of unoccupied offices the seller (programmer) has.
 void generateData(){
 	
 	for(int j=0;j<5;j++)
@@ -179,7 +181,7 @@ void generateData(){
 }
 
 
-
+//Used to view the list of Offices (occupied/unoccupied)
 void myData(){
 	for(int j=0;j<forSale.size();j++)
 	{
